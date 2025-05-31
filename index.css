@@ -12,20 +12,24 @@ body {
 
 header {
   background: #fff;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ddd;
 }
 
-.logo {
+/* .logo {
   font-weight: 700;
   color: #0047AB;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+} */
+.logo img{
+  height: 40px;
+  width: 120px;
 }
 
 nav a {
