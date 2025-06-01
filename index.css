@@ -49,12 +49,12 @@ nav a {
   color: white;
 }
 
-.hero {
+/* .hero {
   background: #0047AB;
   color: white;
   text-align: center;
   padding: 4rem 2rem;
-}
+} */
 .hero h2{
   font-size: 2.0rem;
   margin-bottom: 1rem;
@@ -613,4 +613,39 @@ footer p{
     margin: 0.5rem 1rem;
   }
 }
+
+
+
+/* slideshow */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* Prevent horizontal scroll */
+}
+
+
+
+.container {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 50vh; /* Ensures consistent sizing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures full image visibility */
+}
+
+
+@keyframes pulse {
+  0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+  50% { transform: translate(-50%, -50%) scale(1.3); opacity: 0.7; }
+  100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
           

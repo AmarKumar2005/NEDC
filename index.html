@@ -18,32 +18,36 @@
 
 <body>
   <header>
-  <div class="logo">
-    <img src="assets/logo.jpg" alt="logo">
-  </div>
+    <div class="logo">
+      <img src="assets/logo.jpg" alt="logo">
+    </div>
 
-  <!-- Hamburger Icon -->
-  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <!-- Hamburger Icon -->
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
 
-  <!-- Nav Links -->
-  <nav id="navbar">
-    <a href="index.html">Home</a>
-    <a href="html/findJob.html">Find Jobs</a>
-    <a href="html/Companies.html">Companies</a>
-  </nav>
+    <!-- Nav Links -->
+    <nav id="navbar">
+      <a href="index.html">Home</a>
+      <a href="html/findJob.html">Find Jobs</a>
+      <a href="html/Companies.html">Companies</a>
+    </nav>
 
-  <!-- Auth Buttons -->
-  <div class="auth-buttons" id="auth-buttons">
-    <a href="html/register.html" class="login">Log In</a>
-    <!-- <a href="html/register.html" class="register">Register</a> -->
-  </div>
-</header>
+    <!-- Auth Buttons -->
+    <div class="auth-buttons" id="auth-buttons">
+      <a href="html/register.html" class="login">Log In</a>
+      <!-- <a href="html/register.html" class="register">Register</a> -->
+    </div>
+  </header>
 
-  <section class="hero">
+  <!-- <section class="hero">
     <h2>Welcome to National Employment Devlopment Council(NEDC)</h2>
     <h3>नेशनल एम्प्लॉयमेंट डेवलपमेंट काउंसिल (NEDC) में आपका स्वागत है</h3>
     <h1>Find Your Dream Job Today</h1>
     <p>Connect with thousands of employers looking for talent just like you</p>
+  </section> -->
+  <section class="container">
+    <img id="slideshow" class="background-image" src="Front.jpg" alt="Slideshow Image" />
+    <div id="animation" class="animation hidden"></div>
   </section>
 
   <section class="stats">
@@ -313,9 +317,12 @@
           opportunity
         </p>
         <div class="box-icon">
-          <a href="https://www.facebook.com/profile.php?id=61576946811647" class="fa fa-facebook" style="font-size: 20px;"></a>
-          <a href="https://x.com/NEDC011?t=l9Z64usORpH7DNk5JP5V1w&s=08" class="fa fa-twitter" style="font-size: 20px;"></a>
-          <a href="https://www.linkedin.com/in/national-employment-development-council-nedc-6a0145369/" class="fa fa-linkedin" style="font-size: 20px;"></a>
+          <a href="https://www.facebook.com/profile.php?id=61576946811647" class="fa fa-facebook"
+            style="font-size: 20px;"></a>
+          <a href="https://x.com/NEDC011?t=l9Z64usORpH7DNk5JP5V1w&s=08" class="fa fa-twitter"
+            style="font-size: 20px;"></a>
+          <a href="https://www.linkedin.com/in/national-employment-development-council-nedc-6a0145369/"
+            class="fa fa-linkedin" style="font-size: 20px;"></a>
           <a href="https://www.instagram.com/nedc_011/" class="fa fa-instagram" style="font-size: 20px;"></a>
         </div>
       </div>
@@ -371,4 +378,6 @@
     toggle.innerHTML = isOpen ? '&times;' : '&#9776;';
   });
 </script>
+<script src="index.js"></script>
+
 </html>
