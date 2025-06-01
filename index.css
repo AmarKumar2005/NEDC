@@ -381,12 +381,13 @@ p {
 }
 
 /* Footer */
-footer{
+.footer{
     height: 40vh;
     color: white;
     background-color: rgb(12, 14, 48);
     padding: 40px 80px;
     width: 100%;
+    
 }
 .container{
     display: flex;
@@ -407,7 +408,7 @@ footer{
     display: block;
     margin-bottom: 5px;
 }
-footer p{
+.footer p{
   color: white;
 }
 .card1 .box-icon{
@@ -545,7 +546,7 @@ footer p{
 
 /* ========== FOOTER ========== */
 @media (max-width: 768px) {
-  footer {
+  .footer {
     padding: 20px;
     height: auto;
   }
@@ -620,12 +621,11 @@ footer p{
 html, body {
   margin: 0;
   padding: 0;
-  overflow-y: auto; /* Prevent horizontal scroll */
 }
 
 
 
-.container {
+.container01 {
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -633,6 +633,9 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container01 img {
+  overflow: hidden;
 }
 
 .background-image {
